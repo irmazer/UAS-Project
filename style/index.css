@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto+Serif:opsz,wght@8..144,700&display=swap');
 html {
     box-sizing: border-box;
 }
@@ -15,6 +15,10 @@ body {
 
 .navbar-custom {
     background-color: #0EA186;
+}
+
+.navbar-toggler-icon {
+    background-color: white !important;
 }
 
 .navbar-brand {
@@ -35,4 +39,59 @@ a {
 .navbar-nav .login {
     display: flex;
     justify-content: flex-end;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.left-content {
+    width: 600px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    margin: 105px 35px 105px 70px;
+    text-align: center;
+}
+
+.left-content>h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.explanation {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+    background-color: #0EA186 !important;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+.right-content {
+    height: 560px;
+    width: 550px;
+    background-color: #E1F4F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 567px;
+    top: 96px;
+    border-radius: 23px;
+    flex: 1;
+    margin-bottom: auto;
 }
