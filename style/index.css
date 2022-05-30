@@ -97,9 +97,23 @@ a {
     margin: 20px;
 }
 
+.about-adhd {
+    filter: drop-shadow(13px 13px 4px rgba(0, 0, 0, 0.55));
+    border: none;
+    border-radius: 2px;
+}
+
 .right-content>h1 {
     font-size: 20px;
     align-self: flex-start;
     margin: 35px;
     margin-bottom: 15px;
+}
+
+.right-content>p {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 20px;
+    width: 400px;
 }
