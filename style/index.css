@@ -30,10 +30,20 @@ body {
     color: #FFFFFF;
 }
 
-a {
+.nav-link {
     text-decoration: none;
     font-weight: 600;
+    text-align: center;
     margin-left: 18px;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid white;
+}
+
+.active>.nav-link {
+    border-bottom: 3px solid white;
 }
 
 .navbar-nav .login {
