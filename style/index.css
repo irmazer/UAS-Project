@@ -87,11 +87,19 @@ a {
     width: 550px;
     background-color: #E1F4F4;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     left: 567px;
     top: 96px;
     border-radius: 23px;
     flex: 1;
-    margin-bottom: auto;
+    margin: 20px;
+}
+
+.right-content>h1 {
+    font-size: 20px;
+    align-self: flex-start;
+    margin: 35px;
+    margin-bottom: 15px;
 }
