@@ -144,3 +144,9 @@ h2.fw-bolder {
 .container.px-5.my-5.team {
     background-color: #FFFFFF;
 }
+
+.py-5-page {
+    background-color: #F8F9FA;
+    height: 750px;
+    padding: 48px;
+}
