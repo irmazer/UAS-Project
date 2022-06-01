@@ -1,0 +1,142 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.navbar-custom {
+    background-color: #0EA186;
+}
+
+.navbar-toggler-icon {
+    background-color: white !important;
+}
+
+.navbar-brand {
+    width: auto;
+    height: 24px;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.navbar-right {
+    align-self: right;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 18px;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid white;
+}
+
+.active>.nav-link {
+    border-bottom: 3px solid white;
+}
+
+.navbar-nav .login {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.left-content {
+    width: 600px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    margin: 105px 35px 105px 70px;
+    text-align: center;
+}
+
+.left-content>h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.explanation {
+    font-size: 14px;
+    font-weight: 350;
+}
+
+.btn-primary {
+    background-color: #0EA186 !important;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+.right-content {
+    height: 560px;
+    width: 550px;
+    background-color: #E1F4F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    left: 567px;
+    top: 96px;
+    border-radius: 23px;
+    flex: 1;
+    margin: 20px;
+}
+
+.about-adhd {
+    filter: drop-shadow(13px 13px 4px rgba(0, 0, 0, 0.55));
+    border: none;
+    border-radius: 2px;
+}
+
+.right-content>h1 {
+    font-size: 20px;
+    align-self: flex-start;
+    margin: 35px;
+    margin-bottom: 15px;
+}
+
+.right-content>p {
+    font-size: 14px;
+    font-weight: 350;
+    text-align: center;
+    margin-top: 20px;
+    width: 400px;
+}
+
+section.py-5 {
+    background-color: #F8F9FA;
+}
+
+section.py-5-team {
+    background-color: #FFFFFF;
+    height: 450px;
+}
+
+h2.fw-bolder {
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.container.px-5.my-5.team {
+    background-color: #FFFFFF;
+}
