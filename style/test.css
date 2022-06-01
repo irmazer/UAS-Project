@@ -46,7 +46,89 @@ body {
     border-bottom: 3px solid white;
 }
 
+#adhd-test {
+    font-size: 32px !important;
+    text-align: center;
+    margin-top: 15px;
+}
+
 .navbar-nav .login {
     display: flex;
     justify-content: flex-end;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    border-radius: 4px;
+    background: #9FD9CF;
+    width: 600px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #0EA186;
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color: white;
+}
+
+.choice-text {
+    width: 100%;
+}
+
+#question {
+    font-size: 24px;
+}
+
+
+/*Heads up Display*/
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#progressBar {
+    width: 10rem;
+    height: 2rem;
+    border: 0.2rem solid rgb(11, 223, 36);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: rgb(11, 223, 36);
+    width: 0%;
+}
+
+#progressText {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 48rem;
+    }
 }
