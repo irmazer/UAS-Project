@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-custom {
+    background-color: #0EA186;
+}
+
+.navbar-toggler-icon {
+    background-color: white !important;
+}
+
+.navbar-brand {
+    width: auto;
+    height: 24px;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 18px;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid white;
+}
+
+.active>.nav-link {
+    border-bottom: 3px solid white;
+}
+
+.navbar-nav .login {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.btn1 {
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #0EA186;
+    color: #eee;
+}
+
+.btn1:hover {
+    background: white;
+    border: 2px solid;
+    color: #0EA186;
+}
